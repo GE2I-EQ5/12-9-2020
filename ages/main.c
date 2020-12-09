@@ -69,7 +69,7 @@ int main()
 
     int tranches[10] = {0}; //Dans la tranche 0
 
-    for(j=1; j<10; j++) //Aller de la tranche 1 à 10
+    for(j=1; j<10; j++) //Aller de la tranche 1 à 9
     {
       compteur = 0; // remettre le compteur à 0
 
