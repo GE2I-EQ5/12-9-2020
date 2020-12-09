@@ -57,16 +57,16 @@ int main(void)
 
     /*Calcul de la medianne (resultat 11.75)*/
     //Méthode : succesivement enlever un min et un max
-    double c;
+    double c; //variable tampon
     int j,k;
 
-    for(i=1; i<28; i++)
+    for(i=1; i<28; i++) //1 à 28
     {
-      for(j=0; j<27; j++)
+      for(j=0; j<27; j++) //0 à 27
       {
         if (notes[j] > notes[j+1])
         {
-          c = notes[j];
+          c = notes[j]; // permet de trier par ordre croissant
           notes[j] = notes[j+1];
           notes[j+1] = c;
         }
